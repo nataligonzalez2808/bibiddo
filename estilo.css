@@ -1,0 +1,420 @@
+*{
+    box-sizing: border-box;
+}
+
+.contenedor{
+    display: block;
+    width: 1320px;
+    margin: 0% auto;
+    padding: 0 15px;
+}
+
+@font-face {
+    font-family: 'stringer';
+    src: url(font/StingerFit-Heavy.ttf) format('truetype');
+
+}
+body{
+    font-family: 'Archivo', sans-serif;
+    color: #00214D;
+    margin-top: 0px;
+    margin-bottom: 0%;
+}
+
+h1{
+    font-family: stringer;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 45px;
+    letter-spacing: 2px;
+    color: #FF5470;
+    text-align: left;
+}
+
+h2{
+    font-family: stringer;
+    text-align: center;
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+
+h3{
+    font-weight: 800;
+    font-size: 24px;
+}
+
+p{
+    font-weight: 500;
+    font-size: 16px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+/*barra de navegacion*/
+.navegacion{
+    padding: 0 15px;
+}
+
+nav :hover{
+    background-color: #994FF3;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul {
+    height: 43px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    background-color: #FF5470;
+    margin-top: 0px;
+    margin-bottom: 0%;
+}
+
+li {
+    font-weight: 600;
+}
+
+.button{
+    background-color: #FF5470;
+    color: aliceblue;
+    border-color: #FF5470;
+    border-radius: 15px;
+    width: 170px;
+    height: 45px;
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    border: 2px;
+    margin-left: 150px;
+
+}
+
+.button:hover{
+    background-color: #994FF3;
+}
+
+/*seccion presentacion*/
+#presentacion{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    padding: 15px;
+    text-align: left;
+}
+.descripcion_seccion{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+}
+
+
+#presentacion h3{
+    font-weight: 800;
+    text-align: left;
+    margin-left: 150px;
+    margin-bottom: -10px;
+    color: #FF5470;
+}
+
+#presentacion p{
+    text-align: left;
+    margin-top: 20px;
+    margin-right: 250px;
+}
+
+.personaje{
+    width: 16%;
+    margin-right: 20px;
+    margin-top: -20px;
+    margin-bottom: 15px;
+
+}
+
+.genshin{
+    width: 40%;
+    margin-left: 30%;
+}
+
+/*seccion beneficios*/
+
+#icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    gap: 25px;
+}
+
+#beneficios h2{
+    font-family: stringer;
+    letter-spacing: 2px;
+    color: #00EBC7;
+    margin-bottom: 50px;
+    margin-top: 5%;
+
+}
+
+#beneficios h3{
+    margin-top: 30px;
+    margin-bottom: -5px;
+}
+
+#beneficios p{
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 20%;
+}
+
+/*Formulario*/
+
+.texto_formulario h3{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.texto_formulario p{
+    text-align: center;
+}
+
+.formulario p{
+    text-align: center;
+    margin-top: -35px;
+}
+
+.form{
+    width: 1000px;
+    height: 100px;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: 10%;
+    margin-top: -16%;
+}
+
+.enviar{
+    width: 170px;
+    height: 45px;
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 15px;
+    background-color: #00214D;
+    border-color: #00214D;
+    margin-left: 700px;
+    margin-top: 30px;
+}
+
+.enviar:hover{
+    background-color: #00EBC7;
+    border-color: #00EBC7;
+    color: #00214D;
+}
+
+input[type="text"], 
+input[type="email"]{
+    display: inline-block;
+    border-radius: 10px;
+    width: 40%;
+    height: 45px;
+    margin-bottom: 30px;
+    gap: 0%;
+    text-align: center;
+    font-weight: 600;
+}
+
+/*seccion reseñas*/
+
+.columna1 img{
+    border-radius: 5%;
+    margin:0 0 5% 0;
+}
+
+.columna2 img{
+    border-radius: 5%;
+    margin:0 3% 0% 0;
+}
+
+#reseñas h2{
+    margin-top: -8%;
+    margin-bottom: 5%;
+    color: #994FF3;
+}
+
+.etiqueta{
+    color: #994FF3;
+    font-weight: 700;
+}
+
+
+.columna1{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 2%;
+
+}
+
+.columna2{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 2%;
+}
+
+.verde p{
+    margin-right: 40%;
+}
+
+.celeste p{
+    margin-right: 40%;
+}
+
+.violeta p{
+    margin-right: 20%;
+}
+
+.rojo p{
+    margin-right: 30%;
+}
+
+#rojojpg{
+    margin-left: 6%;
+}
+
+.rojo{
+    margin-left: -20px;
+}
+
+#reseñas ul li{
+    list-style-type: square;
+}
+/*seccion ubicacion*/
+
+#ubicaciones h2{
+    text-align: left;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: #FF5470;
+}
+
+.ubicacion p{
+    margin-top: -15px;
+    margin-right: 180px;
+}
+
+.ubicacion h3{
+    color: #FF5470;
+}
+
+#ubicaciones{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 5%;
+}
+.ubicacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: flex-start;
+    padding: 15px;
+    text-align: left;
+    flex: 1;
+}
+
+.transporte{
+    width: 100px;
+    height: 100px;
+}
+
+
+
+/*seccion preguntas*/
+
+.pregunta h2{
+    text-align: left;
+    margin-left: 5%;
+}
+.pregunta p{
+    margin-right: 22%;
+}
+
+
+#preguntas img{
+    width: 48%;
+}
+
+#preguntas{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #FDE24F;
+    width: 1316px;
+}
+
+.pregunta{
+    display: flex;
+    flex-direction: column;
+}
+
+/*contacto*/
+
+#contacto h3{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.redes{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    margin-left: 310px;
+    margin-top: -1%;
+    margin-bottom: 5%;
+}
+
+.redes img{
+    width: 32px;
+}
+
+.fotorama{
+    width: 100%;
+}
+
+/*footer*/
+
+.footer{
+    height: 100px;
+    background-color: #FF5470;
+}
+
+.footer ul li{
+    margin-top: 5%;
+    text-align: center;
+}
+
+.footer a{
+    margin-top: 5%;
+    width: 100px;
+}
+
+.footer :hover{
+    background-color: #994FF3;
+}
